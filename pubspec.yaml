@@ -1,0 +1,46 @@
+name: carpool
+description: "A new Flutter project."
+
+publish_to: 'none' 
+
+
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+  google_fonts: ^6.2.1
+  flutter_osm_plugin: ^1.2.0
+
+  cupertino_icons: ^1.0.6
+  maplibre_gl: 0.16.0
+  flutter_plugin_android_lifecycle: ^2.0.19
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  flutter_lints: ^4.0.0
+
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/apple_logo.png
+    - assets/facebook_logo.png
+    - assets/google_logo.png
+    - assets/user1.jpg
+    - assets/user2.jpg
+    - assets/user3.jpg
+    - assets/user4.jpg
+    - assets/user5.jpg
+    - assets/user6.jpg
+    - assets/user7.jpg
+    - assets/user8.jpg
+    - assets/mapimage.png
+
+
